@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace HiFiPrototype
+{
+    public partial class Open2 : Form
+    {
+        public Open2()
+        {
+            InitializeComponent();
+        }
+
+        private void OpenButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OpenCancelButton1_Click(object sender, EventArgs e)
+        {
+           
+            this.Close();
+        }
+    }
+}
